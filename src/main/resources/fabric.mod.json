@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "mc-266724",
+	"version": "${version}",
+	"name": "MC-266724",
+	"description": "Fix MC-266724",
+	"authors": [
+		"Drex"
+	],
+	"license": "MIT",
+	"icon": "assets/mc-266724/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.drex.mc_266724.MC266724"
+		]
+	},
+	"mixins": [
+		"mc-266724.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.24",
+		"java": ">=17"
+	}
+}
